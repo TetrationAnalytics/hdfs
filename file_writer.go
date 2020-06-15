@@ -1,6 +1,7 @@
 package hdfs
 
 import (
+	"errors"
 	"io"
 	"os"
 
