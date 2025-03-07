@@ -1,12 +1,13 @@
-module github.com/colinmarc/hdfs/v2
+module github.com/TetrationAnalytics/hdfs
 
-go 1.22.0
+go 1.22
 
 require (
 	github.com/golang/protobuf v1.1.0
 	github.com/pborman/getopt v0.0.0-20180729010549-6fdd0a2c7117
 	github.com/stretchr/testify v1.2.2
 	gopkg.in/jcmturner/gokrb5.v5 v5.3.0
+	github.com/colinmarc/hdfs/v2 v2.0.0
 )
 
 require (
